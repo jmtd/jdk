@@ -889,6 +889,8 @@ jdk/src/java.desktop/unix/native/libawt_xawt/awt/awt_util.c : jdk/src/solaris/na
 jdk/src/java.desktop/unix/native/libawt_xawt/awt/canvas.h : jdk/src/solaris/native/sun/awt/canvas.h
 jdk/src/java.desktop/unix/native/libawt_xawt/awt/gtk2_interface.c : jdk/src/solaris/native/sun/awt/gtk2_interface.c
 jdk/src/java.desktop/unix/native/libawt_xawt/awt/gtk2_interface.h : jdk/src/solaris/native/sun/awt/gtk2_interface.h
+jdk/src/java.desktop/unix/native/libawt_xawt/awt/gtk3_interface.c : jdk/src/solaris/native/sun/awt/gtk3_interface.c
+jdk/src/java.desktop/unix/native/libawt_xawt/awt/gtk3_interface.h : jdk/src/solaris/native/sun/awt/gtk3_interface.h
 jdk/src/java.desktop/unix/native/libawt_xawt/awt/HPkeysym.h : jdk/src/solaris/native/sun/awt/HPkeysym.h
 jdk/src/java.desktop/unix/native/libawt_xawt/awt/list.c : jdk/src/solaris/native/sun/awt/list.c
 jdk/src/java.desktop/unix/native/libawt_xawt/awt/list.h : jdk/src/solaris/native/sun/awt/list.h
