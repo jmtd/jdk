@@ -144,7 +144,7 @@ unshuffle() {
 
   # Shuffle or unshuffle?
   if [ "${what}" = "" ] ; then
-    if echo "$path" | egrep '^src/java\..*|^src/jdk\..*' > /dev/null ; then
+    if echo "$path" | egrep '^src/java\..*|^src/jdk\..*|^src/demo*|^src/sample*' > /dev/null ; then
       what="unshuffle"
     else
       what="shuffle"
@@ -164,6 +164,7 @@ unshuffle() {
       pattern="^$matchpath :"
     fi
     verbose "Attempting to find \"$matchpath\""
+    verbose egrep "$pattern" "$UNSHUFFLE_LIST"
     matches=`egrep "$pattern" "$UNSHUFFLE_LIST"`
     if ! [ "x${matches}" = "x" ] ; then
       verbose "Got matches: [$matches]"
