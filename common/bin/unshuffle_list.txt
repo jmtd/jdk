@@ -1443,6 +1443,7 @@ jdk/src/jdk.localedata/share/classes/sun/util/resources/uk : jdk/src/share/class
 jdk/src/jdk.localedata/share/classes/sun/util/resources/vi : jdk/src/share/classes/sun/util/resources/vi
 jdk/src/jdk.localedata/share/classes/sun/util/resources/zh : jdk/src/share/classes/sun/util/resources/zh
 jdk/src/jdk.management/share/classes/com/sun/management : jdk/src/share/classes/com/sun/management
+jdk/src/jdk.management/unix/classes/com/sun/management/internal : jdk/src/solaris/classes/sun/management
 jdk/src/jdk.management.agent/share/classes/jdk/internal/agent/resources : jdk/src/share/classes/sun/management/resources
 jdk/src/jdk.management.agent/share/classes/sun/management/jmxremote : jdk/src/share/classes/sun/management/jmxremote
 jdk/src/jdk.management.agent/share/classes/sun/management/jdp : jdk/src/share/classes/sun/management/jdp
