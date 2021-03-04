@@ -1518,3 +1518,4 @@ langtools/src/jdk.jdeps/share/classes/com/sun/tools/javap : langtools/src/share/
 langtools/src/jdk.jdeps/share/classes/com/sun/tools/jdeps : langtools/src/share/classes/com/sun/tools/jdeps
 langtools/src/jdk.jdeps/share/classes/com/sun/tools/jdeps/resources : langtools/src/share/classes/com/sun/tools/jdeps/resources
 nashorn/src/jdk.scripting.nashorn/share/classes : nashorn/src
+hotspot/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot : hotspot/agent/src/share/classes/sun/jvm/hotspot

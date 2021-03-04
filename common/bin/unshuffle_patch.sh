@@ -27,8 +27,7 @@
 usage() {
       echo "Usage: $0 [-h|--help] [-v|--verbose] <repo> <input_patch> <output_patch>"
       echo "where:"
-      echo "  <repo>          is one of: corba, jaxp, jaxws, jdk, langtools, nashorn"
-      echo "                  [Note: patches from other repos do not need updating]"
+      echo "  <repo>          is one of: corba, hotspot, jaxp, jaxws, jdk, langtools, nashorn"
       echo "  <input_patch>   is the input patch file, that needs shuffling/unshuffling"
       echo "  <output_patch>  is the updated patch file "
       echo " "
@@ -73,7 +72,7 @@ if [ ! $# -eq 3 ] ; then
 fi
 
 # Check the given repo
-repos="corba jaxp jaxws jdk langtools nashorn"
+repos="corba hotspot jaxp jaxws jdk langtools nashorn"
 repo="$1"
 found="false"
 for r in $repos ; do
